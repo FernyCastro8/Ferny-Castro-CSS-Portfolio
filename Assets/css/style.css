@@ -2,6 +2,7 @@
 html{
     margin: 0;
     position: 0;
+    /* height: 100vh; */
 }
 
 body { 
@@ -9,7 +10,8 @@ body {
     /* margin: 3% auto; */
     margin: 10px auto;
     padding: 0% auto;
-    background-color: rgba(183, 182, 155, 0.35)
+    background-color: rgba(183, 182, 155, 0.35);
+    height: 100vh;
 }
 header h1 {
     text-align: center;
@@ -17,12 +19,30 @@ header h1 {
 }
 
 header ul {
-    display:inline-block;
-    text-align: end;
+    display:flex;
+    /* text-align: end; */
+    flex-direction: row;
     position:relative;
-    margin: auto 25px;
+    margin: auto 20% auto 80%;
     
 }
+
+.ferny {
+    height: 100px;
+    width: 100px;
+}
+
+.nav-link {
+    margin: 15px;
+    width: 100px;
+}
+
+.flex-div {
+    display: flex;
+    flex-direction: row;
+
+}
+
 
 main h3 {
     position: relative;
@@ -44,15 +64,39 @@ section h2 {
 
 }
 
-a {}
+#aboutme p {
+    margin: 25px;
+}
 
+.flex-div h2 {
+    margin: 20px;
+    padding: 20px;
+    height: 50px;
+    border-right: 3px solid black;
+    flex: 0 0 10%
+}
+
+
+
+.flex-div h4{
+    margin: 20px;
+    padding: 35px;
+    height: 50px;
+    border-right: 3px solid black;
+    flex: 0 0 20%
+
+}
 
 
 footer {
     display:inline;
-    position: relative;
-    text-align: start;
+    position: absolute;
+    bottom: 0;
+    /* text-align: start;
     margin: 15px auto;
-    padding: 5% auto;
+    padding: 5% auto; */
 }
 
+footer h4 {
+    /* margin-bottom: 25px; */
+}
