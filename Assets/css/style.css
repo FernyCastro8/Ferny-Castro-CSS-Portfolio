@@ -27,9 +27,14 @@ header ul {
     
 }
 
-.ferny {
-    height: 100px;
-    width: 100px;
+.pic_ferny{
+    height: 140px;
+    width: 140px;
+    position: relative;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+
 }
 
 .nav-link {
@@ -47,7 +52,7 @@ header ul {
 main h3 {
     position: relative;
     text-align: end;
-    margin: 15px 15px 15px 15px;
+    margin: 15px 15px 15px 600px;
     padding: 8px 40px 8px 8px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     background-color: rgba(237, 245, 127, 0.21);
@@ -79,8 +84,9 @@ section h2 {
 
 
 .flex-div h4{
+    display: block;
     margin: 20px;
-    padding: 35px;
+    padding: 20px;
     height: 50px;
     border-right: 3px solid black;
     flex: 0 0 20%
@@ -89,13 +95,25 @@ section h2 {
 
 
 footer {
-    display:inline;
-    position: absolute;
+    display:inline-block;
+    position: relative;
     bottom: 0;
     /* text-align: start;
     margin: 15px auto;
     padding: 5% auto; */
 }
+
+footer div {
+    display: inline-block;
+    position: relative;
+    color: black;
+    background-color: rgba(115, 114, 37, 0.05);
+    /* margin: 20px; */
+    padding: 10px 10px 10px 10px;
+    height: 50px;
+    flex: 0 0 20%
+}
+
 
 footer h4 {
     /* margin-bottom: 25px; */
